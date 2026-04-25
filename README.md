@@ -10,8 +10,13 @@ py brca1_analysis.py
 
 ## 出力されるファイル
 
-- `gc_window_comparison.png` - ウィンドウサイズ別GC含量分布
-- `orf_distribution.png` - ORF長さ分布
+### GC含量分布（ウィンドウサイズ比較）
+![GC含量分布](gc_window_comparison.png)
+
+### ORF長さ分布
+![ORF分布](orf_distribution.png)
+
+
 
 ## 使用ライブラリ
 

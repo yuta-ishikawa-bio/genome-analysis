@@ -3,7 +3,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 
 from Bio import Entrez, SeqIO
 
-Entrez.email = "yuta.ishikawa2028@email.com"
+Entrez.email = "yuta.ishikawa2028@gmail.com"
 
 handle = Entrez.efetch(db="nucleotide", id="NM_000546", rettype="fasta")
 record = SeqIO.read(handle, "fasta")
@@ -48,7 +48,7 @@ plt.xlabel('塩基の位置 (bp)')
 plt.tight_layout()
 plt.savefig('gc_window_comparison.png', dpi=150)
 plt.show()
-print("グラフを gc_window_comparison.png に保存しました！")
+print("グラフを gc_window_comparison.png に保存しました。")
 # ORF検出します
 print("\n--- ORF検出 ---")
 
@@ -93,4 +93,4 @@ plt.title('TP53 ORF長さ分布')
 plt.tight_layout()
 plt.savefig('orf_distribution.png', dpi=150)
 plt.show()
-print("グラフを orf_distribution.png に保存しました！")
+print("グラフを orf_distribution.png に保存しました。")
