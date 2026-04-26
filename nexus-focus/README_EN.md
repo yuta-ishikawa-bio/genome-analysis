@@ -20,8 +20,7 @@ I wanted something that runs quietly in the corner of my screen, looks like a sc
 ---
 
 ## Screenshot
-
-> *(Add a screenshot here — Win: `Win + Shift + S` / Mac: `Cmd + Shift + 4`)*
+![alt text](image-1.png)
 
 ---
 

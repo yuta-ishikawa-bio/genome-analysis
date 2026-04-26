@@ -20,9 +20,7 @@
 ---
 
 ## スクリーンショット
-
-> *(ここにスクリーンショットを追加 — Win: `Win + Shift + S` / Mac: `Cmd + Shift + 4`)*
-
+![alt text](image-2.png)
 ---
 
 ## 機能一覧
